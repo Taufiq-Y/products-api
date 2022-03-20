@@ -1,0 +1,31 @@
+{
+  "name": "node-seq",
+  "version": "1.0.0",
+  "description": "node express crud api with sequelize",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "muhammed",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "github:types/express"
+  }
+}
